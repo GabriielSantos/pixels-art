@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('VCR_OSD_MONO_1.001.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/3c/ab/43/3cab434622d9fabfde2f46e9a51380d6.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ h1 {
+    font-family: 'Pixel', Times, serif;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+
+main {
+    background: transparent;
+    margin: auto;
+    margin-top: 20px;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.container {
+    padding-top: 20px;
+    margin: auto;
+    width: 350px;
+    height: 150px;
+    display: block;
+}
+
+#color-palette {
+    text-align:  center;
+}
+
+.color {
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+img {
+    background: transparent;
+    width: 40px;
+}
+
+#buttons {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#button-random-color {
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+
+#clear-board {
+    margin-top: 20px;
+    margin-left: 50px;
+    background: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+
+#pixel-board {
+    display: table;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+.pixel {
+    opacity: 0.90;
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
