@@ -54,6 +54,10 @@ main {
     padding: 3px;
 }
 
+.color:hover {
+    cursor: pointer;
+}
+
 img {
     background: transparent;
     width: 40px;
@@ -66,8 +70,6 @@ img {
     display: flex;
     justify-content: space-around;
 }
-
-
 
 #button-random-color {
     margin-top: 20px;
@@ -84,6 +86,10 @@ img {
     border: none;
     width: 40px;
     height: 40px;
+}
+
+button {
+    cursor: pointer;
 }
 
 #pixel-board {
